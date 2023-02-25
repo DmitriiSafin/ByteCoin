@@ -13,6 +13,10 @@
 		28C5C5C629A76AB100AAE23B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C5C5C429A76AB100AAE23B /* Main.storyboard */; };
 		28C5C5C829A76AB200AAE23B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C5C5C729A76AB200AAE23B /* Assets.xcassets */; };
 		28C5C5CB29A76AB200AAE23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C5C5C929A76AB200AAE23B /* LaunchScreen.storyboard */; };
+		28C5C5D629A76BD600AAE23B /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5C5D529A76BD600AAE23B /* CoinManager.swift */; };
+		28C5C5D829A8C9D600AAE23B /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5C5D729A8C9D600AAE23B /* CoinData.swift */; };
+		28C5C5DA29AA016B00AAE23B /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5C5D929AA016B00AAE23B /* CoinModel.swift */; };
+		28C5C5DC29AA16F500AAE23B /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5C5DB29AA16F500AAE23B /* Key.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		28C5C5C729A76AB200AAE23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28C5C5CA29A76AB200AAE23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28C5C5CC29A76AB200AAE23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C5C5D529A76BD600AAE23B /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		28C5C5D729A8C9D600AAE23B /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		28C5C5D929AA016B00AAE23B /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		28C5C5DB29AA16F500AAE23B /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,41 @@
 			children = (
 				28C5C5BE29A76AB100AAE23B /* AppDelegate.swift */,
 				28C5C5C029A76AB100AAE23B /* SceneDelegate.swift */,
-				28C5C5C229A76AB100AAE23B /* ViewController.swift */,
-				28C5C5C429A76AB100AAE23B /* Main.storyboard */,
+				28C5C5D429A76B9E00AAE23B /* Model */,
+				28C5C5D229A76B7600AAE23B /* View */,
+				28C5C5D329A76B8600AAE23B /* Controller */,
 				28C5C5C729A76AB200AAE23B /* Assets.xcassets */,
-				28C5C5C929A76AB200AAE23B /* LaunchScreen.storyboard */,
 				28C5C5CC29A76AB200AAE23B /* Info.plist */,
 			);
 			path = ByteCoin;
+			sourceTree = "<group>";
+		};
+		28C5C5D229A76B7600AAE23B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28C5C5C429A76AB100AAE23B /* Main.storyboard */,
+				28C5C5C929A76AB200AAE23B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28C5C5D329A76B8600AAE23B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28C5C5C229A76AB100AAE23B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		28C5C5D429A76B9E00AAE23B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28C5C5D529A76BD600AAE23B /* CoinManager.swift */,
+				28C5C5D729A8C9D600AAE23B /* CoinData.swift */,
+				28C5C5D929AA016B00AAE23B /* CoinModel.swift */,
+				28C5C5DB29AA16F500AAE23B /* Key.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C5C5DC29AA16F500AAE23B /* Key.swift in Sources */,
+				28C5C5D829A8C9D600AAE23B /* CoinData.swift in Sources */,
+				28C5C5D629A76BD600AAE23B /* CoinManager.swift in Sources */,
 				28C5C5C329A76AB100AAE23B /* ViewController.swift in Sources */,
 				28C5C5BF29A76AB100AAE23B /* AppDelegate.swift in Sources */,
+				28C5C5DA29AA016B00AAE23B /* CoinModel.swift in Sources */,
 				28C5C5C129A76AB100AAE23B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
