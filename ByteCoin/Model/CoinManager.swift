@@ -44,10 +44,11 @@ struct CoinManager {
     
     private func parseJSON(_ data: Data) -> CoinModel? {
         let decoder = JSONDecoder()
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
         do {
             let decodedData = try decoder.decode(CoinData.self, from: data)
             let price = decodedData.rate
-            let currency = decodedData.asset_id_quote
+            let currency = decodedData.assetIdQuote
             
             let rezult = CoinModel(coin: currency, rate: price)
             return rezult
