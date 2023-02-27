@@ -28,7 +28,6 @@ class ViewController: UIViewController, CoinManagerDelegate {
             self.currencyLabel.text = coin.rateString
         }
     }
-
 }
 
 extension ViewController: UIPickerViewDataSource, UIPickerViewDelegate {

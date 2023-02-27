@@ -49,7 +49,6 @@ struct CoinManager {
             let decodedData = try decoder.decode(CoinData.self, from: data)
             let price = decodedData.rate
             let currency = decodedData.assetIdQuote
-            
             let rezult = CoinModel(coin: currency, rate: price)
             return rezult
         } catch {
