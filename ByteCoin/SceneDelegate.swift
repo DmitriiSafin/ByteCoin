@@ -1,7 +1,6 @@
 //
 //  SceneDelegate.swift
 //  ByteCoin
-//
 //  Created by Дмитрий on 23.02.2023.
 //
 
