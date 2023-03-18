@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		286F25B929C5CF7F0018B7F8 /* appWork.gif in Resources */ = {isa = PBXBuildFile; fileRef = 286F25B829C5CF7F0018B7F8 /* appWork.gif */; };
 		28C5C5BF29A76AB100AAE23B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5C5BE29A76AB100AAE23B /* AppDelegate.swift */; };
 		28C5C5C129A76AB100AAE23B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5C5C029A76AB100AAE23B /* SceneDelegate.swift */; };
 		28C5C5C329A76AB100AAE23B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5C5C229A76AB100AAE23B /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		286F25B829C5CF7F0018B7F8 /* appWork.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = appWork.gif; sourceTree = "<group>"; };
 		28C5C5BB29A76AB100AAE23B /* ByteCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C5C5BE29A76AB100AAE23B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28C5C5C029A76AB100AAE23B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,9 +47,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		286F25B729C5CF5E0018B7F8 /* ReadmeResources */ = {
+			isa = PBXGroup;
+			children = (
+				286F25B829C5CF7F0018B7F8 /* appWork.gif */,
+			);
+			path = ReadmeResources;
+			sourceTree = "<group>";
+		};
 		28C5C5B229A76AB100AAE23B = {
 			isa = PBXGroup;
 			children = (
+				286F25B729C5CF5E0018B7F8 /* ReadmeResources */,
 				28C5C5BD29A76AB100AAE23B /* ByteCoin */,
 				28C5C5BC29A76AB100AAE23B /* Products */,
 			);
@@ -164,6 +175,7 @@
 				28C5C5CB29A76AB200AAE23B /* LaunchScreen.storyboard in Resources */,
 				28C5C5C829A76AB200AAE23B /* Assets.xcassets in Resources */,
 				28C5C5C629A76AB100AAE23B /* Main.storyboard in Resources */,
+				286F25B929C5CF7F0018B7F8 /* appWork.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

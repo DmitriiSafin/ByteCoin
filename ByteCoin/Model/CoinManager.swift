@@ -13,7 +13,7 @@ protocol CoinManagerDelegate {
 
 struct CoinManager {
     
-    private let apiKey = "91B9A41B-46DD-44AD-9D17-88A201D22B59"
+    private let baseURL = "https://rest.coinapi.io/v1/exchangerate/BTC"
     
     let currencyArray = ["AUD", "BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR"]
     
